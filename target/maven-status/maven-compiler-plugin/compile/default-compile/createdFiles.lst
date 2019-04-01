@@ -1,0 +1,9 @@
+app/JenkinsDetailsPublisher.class
+app/kafka/KafkaConstants.class
+app/JenkinsDetailsPublisher.stapler
+app/kafka/KafkaSender.class
+app/JenkinsDetailsPublisher$DescriptorImpl.class
+app/kafka/ProducerCreator.class
+app/XMLScraper.class
+app/LogScraper.class
+META-INF/annotations/hudson.Extension

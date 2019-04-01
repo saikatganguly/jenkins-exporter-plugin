@@ -1,0 +1,6 @@
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/kafka/KafkaSender.java
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/LogScraper.java
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/JenkinsDetailsPublisher.java
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/kafka/ProducerCreator.java
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/kafka/KafkaConstants.java
+/home/projects/jenkins-matrix-exporter-plugin/src/main/java/app/XMLScraper.java

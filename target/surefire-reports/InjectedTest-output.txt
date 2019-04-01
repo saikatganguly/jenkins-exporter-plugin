@@ -1,0 +1,64 @@
+Running tests for org.saik027:jenkins-matrix-exporter-plugin:1.0-SNAPSHOT
+Mar 31, 2019 8:01:00 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @341ms
+Exploding /home/saikat/.m2/repository/org/jenkins-ci/main/jenkins-war/2.7.3/jenkins-war-2.7.3.war into /home/projects/jenkins-matrix-exporter-plugin/target/jenkins-for-test
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@42f48531{/,file:/home/projects/jenkins-matrix-exporter-plugin/target/jenkins-for-test/,AVAILABLE}{/home/projects/jenkins-matrix-exporter-plugin/target/jenkins-for-test}
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@ed3068a{HTTP/1.1}{localhost:44149}
+Mar 31, 2019 8:01:01 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @1746ms
+Mar 31, 2019 8:01:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 31, 2019 8:01:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 31, 2019 8:01:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 31, 2019 8:01:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 31, 2019 8:01:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 31, 2019 8:01:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 31, 2019 8:01:03 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 33295
+Mar 31, 2019 8:01:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 31, 2019 8:01:03 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Mar 31, 2019 8:01:03 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@120f38e6{/,null,AVAILABLE}
+Mar 31, 2019 8:01:03 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7c18432b{HTTP/1.1}{0.0.0.0:44825}
+Mar 31, 2019 8:01:03 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @3962ms
+Mar 31, 2019 8:01:04 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@ed3068a{HTTP/1.1}{localhost:0}
+Mar 31, 2019 8:01:04 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@42f48531{/,file:/home/projects/jenkins-matrix-exporter-plugin/target/jenkins-for-test/,UNAVAILABLE}{/home/projects/jenkins-matrix-exporter-plugin/target/jenkins-for-test}
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Mar 31, 2019 8:01:04 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #1 from /127.0.0.1:57876
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+Mar 31, 2019 8:01:04 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Built-By: saikat
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_201
+Extension-Name: jenkins-matrix-exporter-plugin
+Specification-Title: A Jenkins plugin to export logs and build details
+  to app.kafka
+Implementation-Title: jenkins-matrix-exporter-plugin
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: org.saik027
+Short-Name: jenkins-matrix-exporter-plugin
+Long-Name: jenkins-matrix-exporter-plugin
+Plugin-Version: 1.0-SNAPSHOT (private-03/31/2019 20:01-saikat)
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: structs:1.7
+Plugin-Developers: 
+
